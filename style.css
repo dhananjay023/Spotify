@@ -166,7 +166,7 @@ nav ul li{
     }
     .container{
         background-size: contain;
-        background-position: center;
+        background-position: top;
         min-height: 100vh;
     }
 }

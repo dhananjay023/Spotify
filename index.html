@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class='brand'><img src='Spotify.png' alt='Spotify'>Spotify</li>
+            <li class="brand2">Home</li>
+            <li class="brand2">About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1><p><span class="letter1">Seedhe</span> <span class="letter2">Maut</span></p></h1>
+            <div class="songItemContainer">
+                <!-- Add song items with the correct structure -->
+                
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fas fa-2x fa-step-backward" id='previous'></i>
+            <i id="masterPlay" class="fas fa-2x fa-play-circle"></i>
+            <i class="fas fa-2x fa-step-forward" id='next'></i>
+        </div>
+        <div class="songInfo">
+            <img src="cover.png" width="68px" id="img1"><span id="masterSongName"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f02c4d10f3.js" crossorigin="anonymous"></script>
+</body>
+</html>

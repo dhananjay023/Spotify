@@ -162,11 +162,20 @@ nav ul li{
     .bottom {
         flex-direction: column; /* Stack elements vertically */
         height: auto; /* Adjust height dynamically */
+        width: auto;
         padding: 10px; /* Add padding for better spacing */
     }
     .container{
         background-size: contain;
         background-position: top;
         min-height: 100vh;
+    }
+    .songInfo img{
+        height: auto;
+        width: 33px;
+        margin-top: 11px;
+    }
+    .songInfo{
+        font-size: 1.1rem;
     }
 }

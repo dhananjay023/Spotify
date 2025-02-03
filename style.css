@@ -154,7 +154,7 @@ nav ul li{
 
 #shuffleBtn, #loopBtn{
     font-size: 25px;
-    margin: 0 10px;    
+    margin: 0 10px;     
 }
 
 .active{
@@ -253,7 +253,7 @@ nav ul li{
     .bottom {
         flex-direction: column; /* Stack elements vertically */
         height: auto; /* Adjust height dynamically */
-        width: auto;
+        width: 430px;
         padding: 10px; /* Add padding for better spacing */
     }
     .container{
@@ -268,5 +268,13 @@ nav ul li{
     }
     .songInfo{
         font-size: 1.1rem;
+    }
+    .icons{
+        font-size: 27px;
+    }
+    .volume-control{
+        position: absolute;
+        left: 67%;
+        top: 51%;
     }
 }
